@@ -10,13 +10,36 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'mijinco0612&apos;s portfolio' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/notosansjapanese.css' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:100,400,900' }
     ]
   },
   /*
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+  modules: [
+    '@nuxtjs/vuetify'
+  ],
+
+  vuetify: {
+    theme: {
+      primary: '#343434',
+      secondary:'#ECEBEB',
+      primaryFont:"#5B5B5B",
+      accent: '#76D2CA',
+      success: '#00d20a',
+      info: '#2196f3',
+      error: '#b71c1c'
+    }
+  },
+  css: [
+        '@fortawesome/fontawesome-free-webfonts',
+        '@fortawesome/fontawesome-free-webfonts/css/fa-brands.css',
+        '@fortawesome/fontawesome-free-webfonts/css/fa-regular.css',
+        '@fortawesome/fontawesome-free-webfonts/css/fa-solid.css'
+  ],
   /*
   ** Build configuration
   */
