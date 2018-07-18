@@ -12,7 +12,7 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/notosansjapanese.css' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:100,400,900' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:100,200,300,400,900' }
     ]
   },
   /*
@@ -27,7 +27,6 @@ module.exports = {
     theme: {
       primary: '#343434',
       secondary:'#ECEBEB',
-      primaryFont:"#5B5B5B",
       accent: '#76D2CA',
       success: '#00d20a',
       info: '#2196f3',

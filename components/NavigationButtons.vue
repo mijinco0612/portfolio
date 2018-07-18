@@ -8,9 +8,9 @@
       </nuxt-link>
     </li>
     <li>
-      <nuxt-link to="about">
+      <nuxt-link to="resume">
         <v-btn flat>
-          About
+          Resume
         </v-btn>
       </nuxt-link>
     </li>
@@ -22,13 +22,12 @@
       </nuxt-link>
     </li>
     <li>
-      <nuxt-link to="resume">
-        <v-btn flat>
-          Resume
+      <nuxt-link to="about">
+        <v-btn flat >
+          About
         </v-btn>
       </nuxt-link>
     </li>
-
   </ul>
 </template>
 
@@ -39,18 +38,18 @@
 <style scoped>
   .iconList {
     list-style: none;
-
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-left: 20px;
 
   }
 
   ul.iconList li {
     display: inline-block;
     text-align: right;
-    color: #666;
+    color: #333 !important;
   }
 
 

@@ -16,7 +16,10 @@
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
     "@nuxtjs/vuetify": "^0.4.2",
     "lato-font": "^3.0.0",
-    "nuxt": "^1.0.0"
+    "nuxt": "^1.0.0",
+    "vue-cute-timeline": "^1.2.5",
+    "vue-light-timeline": "^0.12.8",
+    "vue-timeline": "^0.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
