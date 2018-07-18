@@ -1,13 +1,67 @@
 <template>
-  <div>
-    <nuxt/>
-  </div>
+  <v-app style = "background-color: #fff;">
+    <v-container grid-list-sm>
+      <v-layout row wrap>
+        <v-flex d-flex xs12 order-xs5>
+          <v-layout column>
+            <v-flex d-flex>
+              <NavigationButtons></NavigationButtons>
+            </v-flex>
+
+
+            <v-flex d-flex>
+              <nuxt></nuxt>
+            </v-flex>
+
+
+            <v-flex d-flex>
+              <p class="footerText" style="text-align: right;font-size: 8px;color: #666">©2018 Takamichi Tatsumoto. All
+                rights reserved.</p>
+            </v-flex>
+          </v-layout>
+        </v-flex>
+
+
+        <v-flex d-flex xs12 sm8>
+          <v-layout row wrap>
+            <v-flex d-flex>
+
+              <Logo></Logo>
+
+            </v-flex>
+          </v-layout>
+        </v-flex>
+
+
+        <v-flex d-flex xs12 sm4>
+          <SocialButtons></SocialButtons>
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+  </v-app>
 </template>
 
+<script>
+
+  import NavigationButtons from '~/components/NavigationButtons.vue'
+  import Logo from '~/components/Logo.vue'
+  import SocialButtons from '~/components/SocialButtons.vue'
+
+  export default {
+    components: {
+      NavigationButtons,
+      Logo,
+      SocialButtons
+    }
+  }
+</script>
+
 <style>
+
 html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
+  font-family: 'Lato', 'Noto Sans Japanese';
+  font-size: 14px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -16,37 +70,11 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: border-box;
-  margin: 0;
+.footerText {
+  text-align: right;
+  font-size: 10px;
+  color: #666;
+  font-family: 'Lato', 'Noto Sans Japanese';
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
 </style>
