@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app style = "background-color: #fff;">
     <v-container grid-list-sm>
       <v-layout row wrap>
         <v-flex d-flex xs12 order-xs5>
@@ -20,6 +20,8 @@
             </v-flex>
           </v-layout>
         </v-flex>
+
+
         <v-flex d-flex xs12 sm8>
           <v-layout row wrap>
             <v-flex d-flex>
@@ -29,6 +31,8 @@
             </v-flex>
           </v-layout>
         </v-flex>
+
+
         <v-flex d-flex xs12 sm4>
           <SocialButtons></SocialButtons>
         </v-flex>
@@ -49,7 +53,7 @@
       NavigationButtons,
       Logo,
       SocialButtons
-    },
+    }
   }
 </script>
 
@@ -64,7 +68,6 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background-color: #fff;
 }
 
 .footerText {
@@ -73,9 +76,5 @@ html {
   color: #666;
   font-family: 'Lato', 'Noto Sans Japanese';
 }
-
-
-
-
 
 </style>
