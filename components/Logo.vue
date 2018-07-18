@@ -1,7 +1,7 @@
 <template>
   <div class="LogoWrapper">
     <nuxt-link to="/">
-      <img src="~/assets/logo.svg">
+      <img :src="require('@/assets/Logo.svg')">
     </nuxt-link>
   </div>
 </template>
