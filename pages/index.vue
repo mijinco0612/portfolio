@@ -25,7 +25,7 @@
         <v-layout row wrap>
 
           <v-flex d-flex xs4>
-            <v-card flat hover href="resume">
+            <v-card  hover href="resume">
               <v-card-title primary-title>
                 <span  class="headline">RESUME</span>
               </v-card-title>
@@ -49,7 +49,7 @@
           </v-flex>
 
           <v-flex d-flex xs4>
-            <v-card flat hover href="works">
+            <v-card  hover href="works">
               <v-card-title primary-title>
               <span class="headline">WORKS</span>
               </v-card-title>
@@ -71,7 +71,7 @@
           </v-flex>
 
           <v-flex d-flex xs4>
-            <v-card flat hover href="about">
+            <v-card  hover href="about">
               <v-card-title primary-title>
               <span class="headline">ABOUT</span>
               </v-card-title>
@@ -134,8 +134,7 @@
 .headline {
   font-family: 'Lato' !important;
   font-weight: lighter;
-  color: #5B5B5B;
-  text-shadow: 1px 1px 2px #222;
+  color: #222;
   margin: auto;
   }
 
