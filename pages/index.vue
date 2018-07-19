@@ -16,7 +16,7 @@
       </v-parallax>
 
       <div class="eyeCatch">
-        <h3>Contents</h3>
+        <h3>CONTENTS</h3>
       </div>
 
       <v-container grid-list-xl>
