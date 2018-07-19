@@ -20,7 +20,7 @@
       </div>
 
       <v-container grid-list-xl>
-        <v-layout v-bind="binding">
+        <v-layout row v-bind="binding">
 
           <v-flex xs4>
             <v-card  hover href="resume">
@@ -29,7 +29,7 @@
               </v-card-title>
 
               <v-card-media
-                :src="require('@/assets/texture/note.png')"
+                :src="require('@/assets/texture/resume.png')"
                 height="200px">
               </v-card-media>
               <v-card-text>
@@ -44,7 +44,7 @@
               <span class="headline">WORKS</span>
               </v-card-title>
               <v-card-media
-                :src="require('@/assets/texture/wall.jpeg')"
+                :src="require('@/assets/texture/work.png')"
                 height="200px">
               </v-card-media>
               <v-card-text>
@@ -59,7 +59,7 @@
               <span class="headline">ABOUT</span>
               </v-card-title>
               <v-card-media
-                :src="require('@/assets/texture/newspaper.jpg')"
+                :src="require('@/assets/texture/about.png')"
                 height="200px">
               </v-card-media>
               <v-card-text>
@@ -77,12 +77,30 @@
 
 <script>
   export default {
+
+    data: () => ({
+      isHydrated: false
+    }),
+
     computed: {
       binding() {
+        console.log(this.isHydrated)
         const binding = {}
-        if (this.$vuetify.breakpoint.smAndDown) binding.column = true;
+
+        if (this.$vuetify.breakpoint.smAndDown) {
+          binding.column = true;
+        }
+
         return binding
+      },
+      breakpoint() { // just an example, could be one specific value if that's all you need
+        return this.isHydrated
+          ? this.$vuetify.breakpoint
+          : false
       }
+    },
+    mounted() {
+      this.isHydrated = true
     }
   }
 </script>

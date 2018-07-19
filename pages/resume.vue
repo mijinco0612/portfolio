@@ -2,7 +2,7 @@
   <section class="container">
     <v-parallax
       height="150"
-      :src="require('@/assets/mac.jpeg')"
+      :src="require('@/assets/texture/resume.png')"
     >
       <v-layout
         align-center
@@ -55,10 +55,9 @@
     padding: 5px 5px 5px 47px;
   }
 
-
   .imc {
     font-family: 'Lato' !important;
     font-weight: lighter;
-    text-shadow: 2px 2px 2px #222;
+    text-shadow: 1px 1px 2px #333;
   }
 </style>
