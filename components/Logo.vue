@@ -1,7 +1,7 @@
 <template>
   <div class="LogoWrapper">
     <nuxt-link to="/">
-      <img :src="require('@/assets/Logo.svg')">
+      <img :src="require('@/assets/Logo.png')">
     </nuxt-link>
   </div>
 </template>
@@ -13,5 +13,6 @@
     display: flex;
     justify-content: left;
     align-items: center;
+    margin : 0 10px 0 10px
   }
 </style>

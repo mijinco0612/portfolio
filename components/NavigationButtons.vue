@@ -49,13 +49,14 @@
   ul.iconList li {
     display: inline-block;
     text-align: right;
-    color: #333 !important;
+    color:#5b5b5b !important;
   }
 
 
   ul.iconList li a{
     text-decoration:none;
     font-family: 'Lato', 'Noto Sans Japanese';
+
   }
 
 </style>
