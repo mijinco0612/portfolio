@@ -6,10 +6,7 @@
   </div>
 </template>
 
-
-
 <style scoped>
-
   .buttonGroup {
     text-align: right;
     font-family: 'Lato' !important;
@@ -19,6 +16,4 @@
   .buttonGroup a{
     color: #5B5B5B;
   }
-
-
 </style>

@@ -1,6 +1,5 @@
 <template>
   <section class="container">
-
     <v-parallax
       height="150"
       :src="require('@/assets/mac.jpeg')"
@@ -64,7 +63,6 @@
         </v-flex>
       </v-layout>
     </v-container>
-
   </section>
 </template>
 

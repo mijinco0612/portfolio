@@ -1,31 +1,4 @@
 <template>
-<!--  <ul class="iconList">
-    <li>
-      <a target="_blank" href= "https://github.com/mijinco0612">
-      <v-btn flat icon>
-        <v-icon>fab fa-github fa-2x</v-icon>
-      </v-btn>
-      </a>
-    </li>
-    <li>
-      <a target="_blank" href= "https://www.facebook.com/takamichi.tatsumoto">
-      <v-btn flat icon>
-        <v-icon>fab fa-facebook-square fa-2x</v-icon>
-      </v-btn>
-      </a>
-    </li>
-    <li>
-      <a target="_blank" href="https://qiita.com/mijinco0612">
-      <v-btn flat icon>
-        <v-icon >fa fa-square fa-stack-2x </v-icon>
-        <v-icon style="color:#fff">fa fa-search fa-stack-2x fa-inverse fa-2x </v-icon>
-      </v-btn>
-      </a>
-    </li>
-
-  </ul>
-  -->
-
 <div class="iconList">
   <v-btn flat icon href="https://github.com/mijinco0612" target="_blank">
     <v-icon>fab fa-github fa-2x</v-icon>
@@ -38,7 +11,6 @@
     <v-icon style="color:#fff">fa fa-search fa-stack-2x fa-inverse fa-2x </v-icon>
   </v-btn>
 </div>
-
 </template>
 
 <style scoped>
@@ -53,5 +25,4 @@
     color: #5B5B5B;
     font-family: 'Lato' !important;
   }
-
 </style>

@@ -20,9 +20,7 @@
     <v-layout row>
       <v-flex xs12>
         <v-card flat>
-
           <v-list two-line subheader>
-
             <v-list-tile
               v-for="item in items"
               :key="item.title"
@@ -39,9 +37,6 @@
                 <v-list-tile-sub-title>{{ item.subtitle }}</v-list-tile-sub-title>
               </v-list-tile-content>
             </v-list-tile>
-
-
-
           </v-list>
         </v-card>
       </v-flex>
@@ -69,7 +64,6 @@
 </script>
 
 <style scoped>
-
   .container {
     min-height: 80vh;
     font-family: 'Lato', 'Noto Sans Japanese' !important;
@@ -95,5 +89,4 @@
     font-weight:normal;
     color:#5B5B5B;
   }
-
 </style>

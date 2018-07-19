@@ -1,6 +1,5 @@
 <template>
   <section class="container">
-
     <v-parallax
       height="150"
       :src="require('@/assets/mac.jpeg')"
@@ -27,13 +26,11 @@
     </div>
     <h3>Carrier history</h3>
     <timeline></timeline>
-
   </section>
 </template>
 
 <script>
   import Timeline from '~/components/ResumeTimeline.vue'
-
 
   export default {
     components: {

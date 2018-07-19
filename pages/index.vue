@@ -97,7 +97,6 @@
 </template>
 
 <script>
-
   export default {
     computed: {
       binding() {
@@ -142,6 +141,4 @@
   color: #222;
   margin: auto;
   }
-
-
 </style>

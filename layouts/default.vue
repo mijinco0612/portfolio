@@ -38,12 +38,10 @@
         </v-flex>
       </v-layout>
     </v-container>
-
   </v-app>
 </template>
 
 <script>
-
   import NavigationButtons from '~/components/NavigationButtons.vue'
   import Logo from '~/components/Logo.vue'
   import SocialButtons from '~/components/SocialButtons.vue'
@@ -58,7 +56,6 @@
 </script>
 
 <style>
-
 html {
   font-family: 'Lato', 'Noto Sans Japanese';
   font-size: 14px;
@@ -76,5 +73,4 @@ html {
   color: #666;
   font-family: 'Lato', 'Noto Sans Japanese';
 }
-
 </style>
