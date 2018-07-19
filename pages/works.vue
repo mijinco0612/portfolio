@@ -49,10 +49,11 @@
     data () {
       return {
         items: [
-          { icon: 'fa-newspaper', iconClass: 'accent lighten-1 white--text', title: '日本経済新聞電子版 : マルチデバイスの訪問介護向け記録サービス', subtitle: '2018.1.23' , url: 'https://www.nikkei.com/article/DGXMZO25979170S8A120C1000000/'},
-          { icon: 'fa-newspaper', iconClass: 'accent lighten-1 white--text', title: '日経デジタルヘルス : マルチデバイスの訪問介護向け記録サービス', subtitle: '2018.1.22' , url: 'https://tech.nikkeibp.co.jp/dm/atcl/news/16/012110523/'},
-          { icon: 'fa-newspaper', iconClass: 'accent lighten-1 white--text', title: 'VentureTimes : サービス付き高齢者住宅向け経営支援サービス', subtitle: '2015.11.19' , url: 'https://prtimes.jp/main/html/rd/p/000000020.000013298.html'},
-          { icon: 'fa-newspaper', iconClass: 'accent lighten-1 white--text', title: 'PRTIMES : サービス付き高齢者住宅向け経営支援サービス', subtitle: '2015.11.16' , url: 'https://prtimes.jp/main/html/rd/p/000000020.000013298.html'},
+          { icon: 'far fa-newspaper', iconClass: 'primary lighten-1 white--text', title: '日本経済新聞電子版 : マルチデバイスの訪問介護向け記録サービス', subtitle: '2018.1.23' , url: 'https://www.nikkei.com/article/DGXMZO25979170S8A120C1000000/'},
+          { icon: 'far fa-newspaper', iconClass: 'primary lighten-1 white--text', title: '日経デジタルヘルス : マルチデバイスの訪問介護向け記録サービス', subtitle: '2018.1.22' , url: 'https://tech.nikkeibp.co.jp/dm/atcl/news/16/012110523/'},
+          { icon: 'far fa-newspaper', iconClass: 'primary lighten-1 white--text', title: 'TechCrunch : “新しい働き方”特化の求人サイト「REWORK」', subtitle: '2017.09.25' , url: 'https://jp.techcrunch.com/2017/09/25/caster-rework/'},
+          { icon: 'far fa-newspaper', iconClass: 'primary lighten-1 white--text', title: 'VentureTimes : サービス付き高齢者住宅向け経営支援サービス', subtitle: '2015.11.19' , url: 'https://prtimes.jp/main/html/rd/p/000000020.000013298.html'},
+          { icon: 'far fa-newspaper', iconClass: 'primary lighten-1 white--text', title: 'PRTIMES : サービス付き高齢者住宅向け経営支援サービス', subtitle: '2015.11.16' , url: 'https://prtimes.jp/main/html/rd/p/000000020.000013298.html'},
         ],
         items2: [
           { icon: 'assignment', iconClass: 'blue white--text', title: 'Vacation itinerary', subtitle: 'Jan 20, 2014' },
@@ -66,7 +67,7 @@
 <style scoped>
   .container {
     min-height: 80vh;
-    font-family: 'Lato', 'Noto Sans Japanese' !important;
+    font-family: 'Noto Sans Japanese' !important;
   }
 
   .imc {
@@ -76,9 +77,14 @@
   }
 
   .listContent {
-    font-family: 'Lato', 'Noto Sans Japanese' !important;
-    font-weight:normal;
+    font-family: 'Noto Sans Japanese' !important;
+    font-weight:lighter;
+    font-size:18px;
     color:#5B5B5B ;
+  }
+
+  .v-list__tile__sub-title{
+    font-size:16px;
   }
 
   .summary{
@@ -86,7 +92,9 @@
     margin-bottom: 50px;
   }
   .summary h3{
-    font-weight:normal;
+    text-align: center;
+    font-weight:lighter;
+    font-size:20px;
     color:#5B5B5B;
   }
 </style>

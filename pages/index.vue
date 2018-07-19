@@ -31,13 +31,6 @@
               <v-card-media
                 :src="require('@/assets/texture/note.png')"
                 height="200px">
-                <v-container fill-height fluid pa-2>
-                  <v-layout fill-height>
-                    <v-flex xs12 align-end flexbox>
-
-                    </v-flex>
-                  </v-layout>
-                </v-container>
               </v-card-media>
               <v-card-text>
                 職務経歴の略歴と詳細を掲載しています。
@@ -53,13 +46,6 @@
               <v-card-media
                 :src="require('@/assets/texture/wall.jpeg')"
                 height="200px">
-                <v-container fill-height fluid pa-2>
-                  <v-layout fill-height>
-                    <v-flex xs12 align-end flexbox>
-
-                    </v-flex>
-                  </v-layout>
-                </v-container>
               </v-card-media>
               <v-card-text>
                 担当プロジェクトのメディア掲載歴です。
@@ -75,13 +61,6 @@
               <v-card-media
                 :src="require('@/assets/texture/newspaper.jpg')"
                 height="200px">
-
-                <v-container fill-height fluid pa-2>
-                  <v-layout fill-height>
-                    <v-flex xs12 align-center flexbox>
-                    </v-flex>
-                  </v-layout>
-                </v-container>
               </v-card-media>
               <v-card-text>
                 簡単な自己紹介を掲載しています。
@@ -127,6 +106,11 @@
   font-weight: lighter;
   font-size: 48px;
 
+}
+
+.v-card__text {
+  font-family: 'Lato', 'Noto Sans Japanese' !important;
+  color: #5B5B5B;
 }
 
 .imc {
