@@ -1,6 +1,5 @@
 <template>
   <section class="container">
-
     <v-parallax
       height="150"
       :src="require('@/assets/mac.jpeg')"
@@ -10,7 +9,7 @@
         column
         justify-center
       >
-        <h1 class="imc display-2 mb-3">ABOUT</h1>
+        <h1 class="imc display-3 mb-3">ABOUT</h1>
       </v-layout>
     </v-parallax>
 
@@ -64,7 +63,6 @@
         </v-flex>
       </v-layout>
     </v-container>
-
   </section>
 </template>
 

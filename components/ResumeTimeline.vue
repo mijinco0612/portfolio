@@ -98,7 +98,6 @@
 </script>
 
 <style scoped>
-
   .container *{
     font-family: 'Lato', 'Noto Sans Japanese' !important;
     color:#5B5B5B ;
@@ -112,7 +111,6 @@
     font-family: 'Lato', 'Noto Sans Japanese' !important;
     color:#5B5B5B ;
   }
-
 
   #cd-timeline {
     position: relative;

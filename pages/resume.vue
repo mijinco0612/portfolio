@@ -1,6 +1,5 @@
 <template>
   <section class="container">
-
     <v-parallax
       height="150"
       :src="require('@/assets/mac.jpeg')"
@@ -10,7 +9,7 @@
         column
         justify-center
       >
-        <h1 class="imc display-2 mb-3">RESUME</h1>
+        <h1 class="imc display-3 mb-3">RESUME</h1>
       </v-layout>
     </v-parallax>
 
@@ -27,13 +26,11 @@
     </div>
     <h3>Carrier history</h3>
     <timeline></timeline>
-
   </section>
 </template>
 
 <script>
   import Timeline from '~/components/ResumeTimeline.vue'
-
 
   export default {
     components: {
@@ -47,8 +44,8 @@
 
 <style scoped>
   .container{
-    font-family: 'Lato', 'Noto Sans Japanese';
-    color:#5B5B5B ;
+    color:#5B5B5B ;  font-family: 'Lato', 'Noto Sans Japanese';
+
   }
 
   .summary{

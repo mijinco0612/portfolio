@@ -22,7 +22,7 @@
         </v-flex>
 
 
-        <v-flex d-flex xs12 sm8>
+        <v-flex d-flex xs12 sm7>
           <v-layout row wrap>
             <v-flex d-flex>
 
@@ -33,17 +33,15 @@
         </v-flex>
 
 
-        <v-flex d-flex xs12 sm4>
+        <v-flex d-flex xs12 sm5>
           <SocialButtons></SocialButtons>
         </v-flex>
       </v-layout>
     </v-container>
-
   </v-app>
 </template>
 
 <script>
-
   import NavigationButtons from '~/components/NavigationButtons.vue'
   import Logo from '~/components/Logo.vue'
   import SocialButtons from '~/components/SocialButtons.vue'
@@ -58,7 +56,6 @@
 </script>
 
 <style>
-
 html {
   font-family: 'Lato', 'Noto Sans Japanese';
   font-size: 14px;
@@ -76,5 +73,4 @@ html {
   color: #666;
   font-family: 'Lato', 'Noto Sans Japanese';
 }
-
 </style>
