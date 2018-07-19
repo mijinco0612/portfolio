@@ -110,12 +110,29 @@
       NuxtLoading,
       SocialButtons
     },
+    data: () => ({
+      isHydrated: false
+    }),
     computed: {
       binding() {
+        console.log(this.isHydrated)
         const binding = {}
-        if (this.$vuetify.breakpoint.smAndDown) binding.column = true;
+
+        if (this.$vuetify.breakpoint.smAndDown) {
+          binding.column = true;
+        }
+
         return binding
+      },
+
+      breakpoint() { // just an example, could be one specific value if that's all you need
+        return this.isHydrated
+          ? this.$vuetify.breakpoint
+          : false
       }
+    },
+    mounted() {
+      this.isHydrated = true
     }
   }
 </script>
