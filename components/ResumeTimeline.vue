@@ -108,6 +108,7 @@
         <v-chip color="green" text-color="white">AngularJs</v-chip>
         <v-chip color="green" text-color="white">JQuery</v-chip>
         <v-chip color="orange" text-color="white">MySQL</v-chip>
+        <v-chip color="orange" text-color="white">Redis</v-chip>
         <v-chip color="purple" text-color="white">onPremises</v-chip>
       </div>
 

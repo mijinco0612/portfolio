@@ -44,14 +44,53 @@
         <v-flex xs8>
           <v-card>
             <v-card-title primary-title>
-              <span class="headline">SKILL CHART</span>
+              <span class="headline">SKILL SET</span>
             </v-card-title>
-            <v-card-media
-              :src="require('@/assets/texture/wall.jpeg')"
-              height="200px">
-            </v-card-media>
             <v-card-text>
-
+              <div class="text-xm">
+                <v-chip color="red" text-color="white">Java6-8</v-chip>
+                <v-chip color="red" text-color="white">JS(ES5-6)</v-chip>
+                <v-chip color="red" text-color="white">PHP</v-chip>
+                <v-chip color="red" text-color="white">SQL</v-chip>
+                <v-chip color="red" text-color="white">shell script</v-chip>
+              </div>
+              <div class="text-xm">
+                <v-chip color="green" text-color="white">Spring Boot</v-chip>
+                <v-chip color="green" text-color="white">Nuxt.js</v-chip>
+                <v-chip color="green" text-color="white">Vue.js</v-chip>
+                <v-chip color="green" text-color="white">SAStruts</v-chip>
+                <v-chip color="green" text-color="white">AngularJs</v-chip>
+                <v-chip color="green" text-color="white">JQuery</v-chip>
+                <v-chip color="green" text-color="white">WordPress</v-chip>
+              </div>
+              <div class="text-xm">
+                <v-chip color="orange" text-color="white">MySQL</v-chip>
+                <v-chip color="orange" text-color="white">Redis</v-chip>
+                <v-chip color="orange" text-color="white">Apache</v-chip>
+                <v-chip color="orange" text-color="white">GlassFish</v-chip>
+                <v-chip color="orange" text-color="white">Tomcat</v-chip>
+              </div>
+              <div class="text-xm">
+                <v-chip color="teal" text-color="white">Github</v-chip>
+                <v-chip color="teal" text-color="white">circleci</v-chip>
+                <v-chip color="teal" text-color="white">TravisCI</v-chip>
+              </div>
+              <div class="text-xm">
+                <v-chip color="purple" text-color="white">AWS</v-chip>
+                <v-chip color="purple" text-color="white">ELB</v-chip>
+                <v-chip color="purple" text-color="white">EC2</v-chip>
+                <v-chip color="purple" text-color="white">Aurora</v-chip>
+                <v-chip color="purple" text-color="white">ElastiCache</v-chip>
+              </div>
+              <div class="text-xm">
+                <v-chip color="pink" text-color="white">JIRA</v-chip>
+                <v-chip color="pink" text-color="white">Redmine</v-chip>
+                <v-chip color="pink" text-color="white">Trac</v-chip>
+              </div>
+              <div class="text-xm">
+                <v-chip color="indigo" text-color="white">Photoshop</v-chip>
+                <v-chip color="indigo" text-color="white">Illustrator</v-chip>
+              </div>
             </v-card-text>
           </v-card>
         </v-flex>
@@ -64,9 +103,11 @@
 
 <script>
   import SocialButtons from '~/components/SocialButtons.vue'
+  import NuxtLoading from "../.nuxt/components/nuxt-loading";
 
   export default {
     components: {
+      NuxtLoading,
       SocialButtons
     },
     computed: {
