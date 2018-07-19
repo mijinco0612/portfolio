@@ -22,7 +22,7 @@
         </v-flex>
 
 
-        <v-flex d-flex xs12 sm8>
+        <v-flex d-flex xs12 sm7>
           <v-layout row wrap>
             <v-flex d-flex>
 
@@ -33,7 +33,7 @@
         </v-flex>
 
 
-        <v-flex d-flex xs12 sm4>
+        <v-flex d-flex xs12 sm5>
           <SocialButtons></SocialButtons>
         </v-flex>
       </v-layout>

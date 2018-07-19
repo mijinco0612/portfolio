@@ -3,7 +3,7 @@
     <div>
 
       <v-parallax
-        height="300"
+        height="250"
         :src="require('@/assets/mac.jpeg')"
       >
         <v-layout
@@ -11,8 +11,7 @@
           column
           justify-center
         >
-          <h1 class="imc display-2 mb-3">PORTFOLIO</h1>
-          <h2 class="imc subheading">web developer : Takamichi Tatsumoto</h2>
+          <h1 class="imc display-3 mb-3">PORTFOLIO</h1>
         </v-layout>
       </v-parallax>
 
@@ -20,11 +19,10 @@
         <h3>Contents</h3>
       </div>
 
+      <v-container grid-list-xl>
+        <v-layout v-bind="binding">
 
-      <v-container grid-list-md>
-        <v-layout row wrap>
-
-          <v-flex d-flex xs4>
+          <v-flex xs4>
             <v-card  hover href="resume">
               <v-card-title primary-title>
                 <span  class="headline">RESUME</span>
@@ -42,13 +40,12 @@
                 </v-container>
               </v-card-media>
               <v-card-text>
-                職務略歴と現在までの職歴<br>
-                の詳細を掲載しています。
+                職務経歴の略歴と詳細を掲載しています。
               </v-card-text>
             </v-card>
           </v-flex>
 
-          <v-flex d-flex xs4>
+          <v-flex xs4>
             <v-card  hover href="works">
               <v-card-title primary-title>
               <span class="headline">WORKS</span>
@@ -65,12 +62,12 @@
                 </v-container>
               </v-card-media>
               <v-card-text>
-                現在までに携わったプロジェクトの中でメディアに掲載されたものを紹介しています。
+                担当プロジェクトのメディア掲載歴です。
               </v-card-text>
             </v-card>
           </v-flex>
 
-          <v-flex d-flex xs4>
+          <v-flex xs4>
             <v-card  hover href="about">
               <v-card-title primary-title>
               <span class="headline">ABOUT</span>
@@ -95,18 +92,26 @@
         </v-layout>
       </v-container>
 
-
     </div>
   </section>
 </template>
 
 <script>
 
+  export default {
+    computed: {
+      binding() {
+        const binding = {}
+        if (this.$vuetify.breakpoint.smAndDown) binding.column = true;
+        return binding
+      }
+    }
+  }
 </script>
 
 <style scoped>
 .container {
-  min-height: 70vh;
+  min-height: 65vh;
   justify-content: center;
   align-items: center;
   text-align: center;

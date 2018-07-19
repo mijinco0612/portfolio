@@ -9,7 +9,7 @@
         column
         justify-center
       >
-        <h1 class="imc display-2 mb-3">WORKS</h1>
+        <h1 class="imc display-3 mb-3">WORKS</h1>
       </v-layout>
     </v-parallax>
 
@@ -27,25 +27,17 @@
               v-for="item in items"
               :key="item.title"
               avatar
+              :href="item.url"
+              target="_blank"
             >
               <v-list-tile-avatar>
                 <v-icon :class="[item.iconClass]">{{ item.icon }}</v-icon>
               </v-list-tile-avatar>
 
               <v-list-tile-content class="listContent">
-                <a class="listTitleLink" :href="item.url" target="_blank">
                 <v-list-tile-title>{{ item.title }}</v-list-tile-title>
-                </a>
                 <v-list-tile-sub-title>{{ item.subtitle }}</v-list-tile-sub-title>
               </v-list-tile-content>
-
-              <v-list-tile-action>
-                <v-btn icon ripple :href="item.url" target="_blank">
-
-                  <v-icon color="accent lighten-1">info</v-icon>
-
-                </v-btn>
-              </v-list-tile-action>
             </v-list-tile>
 
 
@@ -89,13 +81,9 @@
     text-shadow: 2px 2px 2px #222;
   }
 
-  .listTitleLink{
-    text-decoration: none;
-  }
-
-  .listContent a{
+  .listContent {
     font-family: 'Lato', 'Noto Sans Japanese' !important;
-    font-weight: normal;
+    font-weight:normal;
     color:#5B5B5B ;
   }
 

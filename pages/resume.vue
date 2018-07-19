@@ -10,7 +10,7 @@
         column
         justify-center
       >
-        <h1 class="imc display-2 mb-3">RESUME</h1>
+        <h1 class="imc display-3 mb-3">RESUME</h1>
       </v-layout>
     </v-parallax>
 
@@ -47,8 +47,8 @@
 
 <style scoped>
   .container{
-    font-family: 'Lato', 'Noto Sans Japanese';
-    color:#5B5B5B ;
+    color:#5B5B5B ;  font-family: 'Lato', 'Noto Sans Japanese';
+
   }
 
   .summary{

@@ -10,7 +10,7 @@
         column
         justify-center
       >
-        <h1 class="imc display-2 mb-3">ABOUT</h1>
+        <h1 class="imc display-3 mb-3">ABOUT</h1>
       </v-layout>
     </v-parallax>
 
