@@ -29,7 +29,7 @@
               </v-card-title>
 
               <v-card-media
-                :src="require('@/assets/texture/note.png')"
+                :src="require('@/assets/texture/resume.png')"
                 height="200px">
               </v-card-media>
               <v-card-text>
@@ -44,7 +44,7 @@
               <span class="headline">WORKS</span>
               </v-card-title>
               <v-card-media
-                :src="require('@/assets/texture/wall.jpeg')"
+                :src="require('@/assets/texture/work.png')"
                 height="200px">
               </v-card-media>
               <v-card-text>
@@ -59,7 +59,7 @@
               <span class="headline">ABOUT</span>
               </v-card-title>
               <v-card-media
-                :src="require('@/assets/texture/newspaper.jpg')"
+                :src="require('@/assets/texture/about.png')"
                 height="200px">
               </v-card-media>
               <v-card-text>

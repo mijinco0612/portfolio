@@ -2,7 +2,7 @@
   <section class="container">
     <v-parallax
       height="150"
-      :src="require('@/assets/mac.jpeg')"
+      :src="require('@/assets/texture/about.png')"
     >
       <v-layout
         align-center
