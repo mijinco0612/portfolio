@@ -45,7 +45,7 @@
 
         return binding
       },
-      breakpoint() { // just an example, could be one specific value if that's all you need
+      breakpoint() {
         return this.isHydrated
           ? this.$vuetify.breakpoint
           : false
