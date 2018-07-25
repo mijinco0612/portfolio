@@ -19,7 +19,7 @@
         <v-flex xs4>
           <v-card>
             <v-card-title primary-title>
-              <span  class="headline">PROFILE</span>
+              <span class="headline">PROFILE</span>
             </v-card-title>
 
             <v-card-media
@@ -138,27 +138,22 @@
 </script>
 
 <style scoped>
+  * {
+    font-weight: lighter;
+  }
   .container {
     min-height: 70vh;
-    font-family: 'Lato', 'Noto Sans Japanese' !important;
-    color: #5B5B5B;
   }
-
   .v-card__text {
-    font-family: 'Lato', 'Noto Sans Japanese' !important;
     color: #5B5B5B;
   }
-
   .imc {
     font-family: 'Lato' !important;
-    font-weight: lighter;
     text-shadow: 2px 2px 2px #222;
   }
 
   .headline {
     font-family: 'Lato' !important;
-    font-weight: lighter;
-    color: #222;
     margin: auto;
   }
 </style>
