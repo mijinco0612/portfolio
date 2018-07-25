@@ -15,8 +15,8 @@
 
 
             <v-flex d-flex>
-              <p class="footerText" style="text-align: right;font-size: 8px;color: #666">©2018 Takamichi Tatsumoto. All
-                rights reserved.</p>
+              <small class="footerText">©2018 Takamichi Tatsumoto. All
+                rights reserved.</small>
             </v-flex>
           </v-layout>
         </v-flex>
@@ -69,7 +69,6 @@ html {
 
 .footerText {
   text-align: right;
-  font-size: 10px;
   color: #666;
   font-family: 'Lato', 'Noto Sans Japanese';
 }

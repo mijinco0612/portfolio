@@ -65,6 +65,9 @@
 </script>
 
 <style scoped>
+  *{
+    font-weight: lighter;
+  }
   .container {
     min-height: 80vh;
     font-family: 'Noto Sans Japanese' !important;
@@ -72,13 +75,10 @@
 
   .imc {
     font-family: 'Lato' !important;
-    font-weight: lighter;
     text-shadow: 2px 2px 2px #222;
   }
 
   .listContent {
-    font-family: 'Noto Sans Japanese' !important;
-    font-weight:lighter;
     font-size:18px;
     color:#5B5B5B ;
   }
@@ -93,7 +93,6 @@
   }
   .summary h3{
     text-align: center;
-    font-weight:lighter;
     font-size:20px;
     color:#5B5B5B;
   }
