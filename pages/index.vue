@@ -37,11 +37,17 @@
 
 <style scoped>
 
+  *{
+    font-family: 'Lato' !important;
+    font-weight: lighter !important;
+  }
+
 .container {
   min-height: 60vh;
   justify-content: center;
   align-items: center;
   text-align: center;
+
 }
 
 .eyeCatch {
@@ -49,13 +55,10 @@
 }
 
 .eyeCatch h3 {
-  font-family: 'Lato' !important;
   font-weight: lighter;
 }
 
 .imc {
-  font-family: 'Lato' !important;
-  font-weight: lighter;
   text-shadow: 2px 2px 2px #222;
 }
 

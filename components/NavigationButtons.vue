@@ -10,7 +10,7 @@
   .buttonGroup {
     text-align: right;
     font-family: 'Lato' !important;
-    font-weight: lighter;
+    font-weight: lighter ;
   }
 
   .buttonGroup a{

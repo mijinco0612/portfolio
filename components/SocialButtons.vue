@@ -20,9 +20,7 @@
     justify-content: flex-end;
     align-items: center;
   }
-
   .iconList a{
     color: #5B5B5B;
-    font-family: 'Lato' !important;
   }
 </style>
